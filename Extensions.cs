@@ -1,18 +1,15 @@
 using UnityEngine;
 
-public static class Extensions
+public static class Vector3Extensions
 {
-    /*
-     *     Vector3
-     */
     public static Vector3 With(this Vector3 it, float? x = null, float? y = null, float? z = null)
     {
         return new Vector3(x ?? it.x, y ?? it.y, z ?? it.z);
     }
-    
-    /*
-     *     Transform
-     */
+}
+
+public static class TransformExtentions
+{
     public static void SetEulerAngle(this Transform it, float? x = null, float? y = null, float? z = null)
     {
         var newEulerAngles = it.eulerAngles;
