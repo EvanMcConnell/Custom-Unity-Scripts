@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public static class EvansWhackyExtensions
+public static class Extensions
 {
     /*
      *     Vector3
