@@ -14,5 +14,6 @@ public static class TransformExtentions
     {
         var newEulerAngles = it.eulerAngles;
         it.eulerAngles = newEulerAngles.With(x: x ?? newEulerAngles.x, y: y ?? newEulerAngles.y, z: z ?? newEulerAngles.z);
+        //test
     }
 }
