@@ -1,0 +1,21 @@
+{
+  "name": "com.oscail.extensions",
+  "version": "1.0.0",
+  "displayName": "oscails Extensions",
+  "description": "This is an example package",
+  "unity": "2021.3",
+  "unityRelease": "0b5",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "oscail",
+    "extensions",
+    "keyword3"
+  ],
+  "author": {
+    "name": "oscail",
+    "email": "oscail.dev@gmail.com",
+    "url": "https://www.twitter.com/oscailDev"
+  }
+}
